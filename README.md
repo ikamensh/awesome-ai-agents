@@ -1721,7 +1721,7 @@ Coding, Multi-agent
 - Wraps existing coding agents (Claude Code, Cursor, Codex, Gemini CLI) with an orchestration layer that directs workers, architects, and testers through independent verification cycles
 - On SWE-bench Verified, adding Kodo's orchestration around Cursor improved resolve rate by 24% — same model, same prompt, same conditions
 - The orchestration layer is agent-agnostic, designed to boost whichever underlying agent you plug in
-- Runs on your existing subscriptions with a cheap API orchestrator (Gemini Flash, fractions of a cent)
+- Runs on your existing subscriptions with a lightweight API orchestrator (Gemini Flash)
 
 ### Links
 - [GitHub](https://github.com/ikamensh/kodo)
